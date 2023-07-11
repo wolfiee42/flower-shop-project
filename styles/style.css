@@ -23,7 +23,7 @@
     font-weight: 800;
 }
 
-.color{
+.color {
     color: #E55473;
 }
 
@@ -66,16 +66,88 @@ header {
     padding-bottom: 10px;
 }
 
-.sales-img{
+.sales-img {
     width: 30%;
     height: 30%;
 }
 
-.salesd{
+.salesd {
     width: 80%;
     padding-bottom: 10px;
     font-size: 15px;
 }
-.btn1{
+
+.btn1 {
     padding: 10px 20px;
+}
+
+/* social section */
+
+.info {
+    text-align: center;
+    padding: 180px 0px 20px;
+}
+
+.social-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 85%;
+    margin: auto;
+
+}
+
+.ppics {
+    width: 20%;
+    box-shadow: 0px 0px 4px gray;
+}
+
+/* email section */
+
+.email-container {
+    background-image: url(../assets/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    width: 960px;
+    height: 350px;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.emailemail {
+    margin: auto;
+}
+
+.email-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.email-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+.email-box{
+    padding: 15px 15px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
 }
