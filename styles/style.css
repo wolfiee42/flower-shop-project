@@ -50,6 +50,86 @@ header {
     padding-bottom: 20px;
 }
 
+/* feature section  */
+.featureee {
+    margin-top: 100px;
+}
+
+.features-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 65%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 75%;
+    margin: auto;
+    
+}
+.flowers{
+    width: 200px;
+    height: 300px;
+    /* margin: auto; */
+    border-radius: 250px 250px 0px 0px;
+}
+
+.a {
+    background-color: #A7216226;
+}
+
+.b {
+    background-color: #0597A026;
+}
+
+.c {
+    background-color: #477D1126;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+/* customerCare section */
+
+.customer-care{
+    width: 75%;
+    margin:100px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2727270D;
+    text-align: center;
+    padding: 50px;
+}
+.cc-pic{
+    width: 40px;
+    height: 40px;
+}
 /* sales section */
 
 .sales-container {
