@@ -125,7 +125,7 @@ header {
     background-size: cover;
     width: 960px;
     height: 350px;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
     text-align: center;
     align-items: center;
@@ -144,10 +144,48 @@ header {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 }
-.email-box{
+
+.email-box {
     padding: 15px 15px;
     width: 500px;
     border: none;
     border-radius: 5px;
     font-weight: 600;
+}
+
+/* footer section */
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    margin: auto;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-description1 {
+    color: rgba(255, 255, 255, 0.90);
+    width: 65%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.footer-description2 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
