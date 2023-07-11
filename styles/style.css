@@ -26,6 +26,7 @@
 .color {
     color: #E55473;
 }
+
 /* nav section */
 nav{
     display: flex;
@@ -230,6 +231,7 @@ header {
     gap: 15px;
     width: 85%;
     margin: auto;
+    margin-bottom: 100px;
 
 }
 
