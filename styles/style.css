@@ -106,33 +106,44 @@ header {
     margin: auto;
     padding-bottom: 20px;
 }
-
-.featured-flowers {
+.flower-container{
     display: flex;
     justify-content: space-between;
-    gap: 15px;
-    width: 75%;
-    margin: auto;
+    align-items:center;
+    gap: 10px;
+    margin: 0px 95px;
+    padding: 100px 70px 0px 100px;
     
 }
-.flowers{
-    width: 200px;
-    height: 300px;
-    /* margin: auto; */
-    border-radius: 250px 250px 0px 0px;
+.flower-img{
+    height: 400px;
+    width: 450px;
+    background-color: #E55473;
+    border-radius: 300px 300px 0px 0px;
+    
 }
-
-.a {
-    background-color: #A7216226;
+.ss{
+    background-color: #0597A026 ;
 }
-
-.b {
-    background-color: #0597A026;
-}
-
-.c {
+.dd{
     background-color: #477D1126;
 }
+.flower-desc{
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.a{
+    height: 300px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 15px;
+}
+
+
+
+
 
 .names{
     display: flex;
@@ -148,7 +159,7 @@ header {
 
 .customer-care{
     width: 68%;
-    margin:100px auto;
+    margin:150px auto;
     display: flex;
     justify-content: space-around;
     background-color: #2727270D;
@@ -158,6 +169,11 @@ header {
 .cc-pic{
     width: 40px;
     height: 40px;
+}
+.cc-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.60);
 }
 /* sales section */
 
