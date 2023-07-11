@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* shared section */
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    width: 35%;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: #fff;
+    font-weight: 800;
+}
+
+/* header section */
+
+header {
+    background-color: #E554730D;
+    height: 100vh;
+    background-image: url(../assets/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% 100%;
+}
+
+.header-container {
+    color: #272727;
+    font-size: 25px;
+    padding: 120px 0px 0px 200px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
