@@ -23,6 +23,10 @@
     font-weight: 800;
 }
 
+.color{
+    color: #E55473;
+}
+
 /* header section */
 
 header {
@@ -44,4 +48,34 @@ header {
     color: #272727;
     font-size: 50px;
     padding-bottom: 20px;
+}
+
+/* sales section */
+
+.sales-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E554730D;
+    padding: 100px 300px;
+}
+
+.sales-title {
+    color: #272727;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.sales-img{
+    width: 30%;
+    height: 30%;
+}
+
+.salesd{
+    width: 80%;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.btn1{
+    padding: 10px 20px;
 }
